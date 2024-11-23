@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omega</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4ede1;
+            color: #4a3c2f;
+        }
+        header {
+            background-color: #a67c52;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d4a373;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 2px solid #a67c52;
+            padding-bottom: 10px;
+        }
+        .productos {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .producto {
+            background-color: #fff;
+            border: 1px solid #d4a373;
+            border-radius: 8px;
+            padding: 15px;
+            width: calc(33.33% - 20px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .producto h3 {
+            margin: 0 0 10px;
+        }
+        footer {
+            text-align: center;
+            background-color: #4a3c2f;
+            color: white;
+            padding: 20px 10px;
+        }
+        .sociales {
+            margin-top: 10px;
+        }
+        .sociales a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Omega</h1>
+        <p>Innovación y calidad para un futuro mejor</p>
+    </header>
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#mision">Misión y Visión</a>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="productos">
+            <div class="producto">
+                <h3>BigProducers</h3>
+                <p>Alta capacidad de producción para industrias avanzadas.</p>
+            </div>
+            <div class="producto">
+                <h3>Allin One</h3>
+                <p>Soluciones completas para tus necesidades tecnológicas.</p>
+            </div>
+            <div class="producto">
+                <h3>HighTecnology</h3>
+                <p>Innovación en tecnología industrial de última generación.</p>
+            </div>
+        </div>
+    </section>
+    <section id="mision">
+        <h2>Misión y Visión</h2>
+        <p><strong>Misión:</strong> Liderar el mercado con soluciones tecnológicas que impulsen la eficiencia y sostenibilidad.</p>
+        <p><strong>Visión:</strong> Ser referentes globales en innovación y calidad industrial.</p>
+    </section>
+    <section id="objetivos">
+        <h2>Objetivos</h2>
+        <ul>
+            <li>Desarrollar productos innovadores adaptados a las necesidades del mercado.</li>
+            <li>Fortalecer nuestra presencia global.</li>
+            <li>Impulsar la sostenibilidad en todos nuestros procesos.</li>
+        </ul>
+    </section>
+    <footer id="contacto">
+        <p>© 2024 Omega. Todos los derechos reservados.</p>
+        <div class="sociales">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
